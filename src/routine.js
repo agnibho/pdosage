@@ -29,6 +29,9 @@ $(document).ready(function(){
     $(".loader").remove();
     $(".container").fadeIn();
 
+    //Insert version code
+    $(".version").text(VERSION);
+
     //Update copyright
     $(".copyright").each(function(){
 	if(new Date().getFullYear()>$(this).data("start")){
@@ -46,24 +49,63 @@ $(document).ready(function(){
 	    this.dispatchEvent(new Event("input"));
 	});
     });
-    
-    //Change focus after number input
-    $(".jump-focus").on("input", function(){
-	if($(this).val().length == $(this).prop("maxlength")){
-	    var all=$("input").toArray();
-	    var i=all.indexOf(this)+1;
-	    $(all[i]).focus().select();
-	}
+
+    //Notifications
+    $(window).resize(function(){
+	$("#notify").width($(".container").width()-20);
+    });
+    $(window).scroll(function(){
+	$("#notify").width($(".container").width()-20);
     });
 
-    //Defocus after input finished
-    $(".stop-focus").on("input", function(){
-	if($(this).val().length == $(this).prop("maxlength")){
-	    $(this).blur();
-	    var target=$($(this).data("ref"));
-	    $("html, body").animate({
-		scrollTop: $(target).offset().top
-	    }, 1000);
+    //Parse app info from server
+    $.get("https://code.agnibho.com/pdosage/info.json", function(data){
+	var vCurr=VERSION.split(".").map(Number);
+	var vLtst=data.latest.split(".").map(Number);
+	
+	if(isBiggerThan(data.latest, VERSION)){
+	    $("#notify").slideDown();
+	    $("#notify").width($(".container").width()-20);
+	    $("#notify-text").text("A new version of PDosage is available.");
+	    if(document.URL.indexOf("http://")==-1 && document.URL.indexOf("https://")==-1){
+		if(/(android)/i.test(navigator.userAgent)){
+		    $("#notify-link").attr("href", data.apk);
+		    $("#notify-link").text("Download");
+		}
+		else{
+		    $("#notify-link").attr("href", data.url);
+		    $("#notify-link").text("Load");
+		}
+	    }
+	    else{
+		$("#notify-link").attr("href", data.url);
+		$("#notify-link").text("Load");
+	    }
 	}
+	
+	try{
+	    if(data.data.latest>JSON.parse(localStorage.getItem("pdosage_data")).version){
+		$.get(data.data.src, function(d){
+		    localStorage.setItem("pdosage_data", JSON.stringify(d));
+		});
+	    }
+	}
+	catch(e){}
     });
+
+    //Compare versions
+    function isBiggerThan(v1, v2){
+	while(v1.length<v2.length){
+	    v1.push(0);
+	}
+	while(v2.length<v1.length){
+	    v2.push(0);
+	}
+	for(var i=0; i<v1.length; i++){
+	    if(v1[i]>v2[i]){
+		return true;
+	    }
+	}
+	return false;
+    }
 });

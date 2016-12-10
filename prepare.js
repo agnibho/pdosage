@@ -1,6 +1,8 @@
 var DATA_SRC="./src/data/";
-var DATA_FILE="./src/dosage.json";
+var DATA_FILE="./src/data.json";
 var fs=require("fs");
+
+var bigData={id:"com.agnibho.com.pdosage.data", timestamp: Date.now(), version: 0, dosage:[]};
 
 if(process.argv[2]=="watch"){
     fs.watch(DATA_SRC, jsonCat);
@@ -11,12 +13,11 @@ else{
 
 function jsonCat(){
     console.log("Joining JSON data files");
-    var bigData=[]
     var files=fs.readdirSync(DATA_SRC);
     for(var i=0; i<files.length; i++){
 	if(files[i].indexOf(".")!==0){
 	    try{
-		bigData=bigData.concat(JSON.parse(fs.readFileSync(DATA_SRC+files[i], "utf8")));
+		bigData.dosage=bigData.dosage.concat(JSON.parse(fs.readFileSync(DATA_SRC+files[i], "utf8")));
 	    }
 	    catch(e){
 		console.log(e);

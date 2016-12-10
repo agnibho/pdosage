@@ -37,7 +37,7 @@ import "bootstrap-validator";
 
 //Backend files
 import Dosage from "./dosage.js";
-import data from "./dosage.json";
+import data from "./data.json";
 
 //Vue Components
 import Vue from "vue";
@@ -48,7 +48,6 @@ import CalculatorView from "./CalculatorView.vue";
 import AboutView from "./AboutView.vue";
 
 //Start app
-var dosage=new Dosage(data);
 new Vue({
     el: "#app",
     components: {
@@ -60,7 +59,7 @@ new Vue({
     },
     data: {
 	patient: {age: {y:null, m:null, d:null}, wt:null},
-	dosage: dosage,
+	dosage: "",
 	favs: "[]"
     },
     created:function(){
@@ -71,6 +70,13 @@ new Vue({
 	    if(this.favs==null){
 		this.favs=["Paracetamol", "Levosalbutamol", "Domperidone", "Drotaverine", "Ranitidine"];
 	    }
+	}
+	try{
+	    this.dosage=new Dosage(JSON.parse(localStorage.getItem("pdosage_data")).dosage);
+	}
+	catch(e){
+	    this.dosage=new Dosage(data.dosage);
+	    localStorage.setItem("pdosage_data", data);
 	}
     }
 });
