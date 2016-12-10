@@ -1,0 +1,120 @@
+{
+    "name": "Ranitidine",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    2,
+		    4
+		],
+		"limit": [
+		    300,
+		    300
+		],
+		"unit": "mg",
+		"txt": "per day"
+	    }
+	},
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    4,
+		    8
+		],
+		"limit": [
+		    600,
+		    600
+		],
+		"unit": "mg",
+		"txt": "per day",
+		"comment": "in GERD (double dose)"
+	    }
+	},
+	{
+	    "mode": "Inj",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    1,
+		    2
+		],
+		"limit": [
+		    200,
+		    200
+		],
+		"unit": "mg",
+		"txt": "IV per day"
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "150mg",
+	    "dose": {
+		"approx": [
+		    150,
+		    "2*bw",
+		    "4*bw"
+		],
+		"limit": [
+		    2,
+		    2
+		],
+		"unit": "tab",
+		"txt": "per day"
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "300mg",
+	    "dose": {
+		"approx": [
+		    300,
+		    "2*bw",
+		    "4*bw"
+		],
+		"limit": [
+		    1,
+		    1
+		],
+		"unit": "tab",
+		"txt": "per day"
+	    }
+	},
+	{
+	    "mode": "Syr",
+	    "content": "75mg/5ml",
+	    "dose": {
+		"perKg": [
+		    0.13,
+		    0.26
+		],
+		"limit": [
+		    20,
+		    20
+		],
+		"unit": "ml",
+		"txt": "per day"
+	    }
+	},
+	{
+	    "mode": "Inj",
+	    "content": "50mg/2ml",
+	    "dose": {
+		"perKg": [
+		    0.04,
+		    0.08
+		],
+		"limit": [
+		    8,
+		    8
+		],
+		"unit": "ml",
+		"txt": "IV per day"
+	    }
+	}
+    ]
+}

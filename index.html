@@ -1,0 +1,97 @@
+<!--
+***********************************************************************
+ * Title: PDosage
+ * Description: Pediatric Dose Calculator
+ * Author: Agnibho Mondal
+ * Website: http://code.agnibho.com
+ **********************************************************************
+   Copyright (c) 2016 Agnibho Mondal
+   All rights reserved
+ **********************************************************************
+   This file is part of PDosage.
+   
+   PDosage is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+   
+   PDosage is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with PDosage. If not, see <http://www.gnu.org/licenses/>.
+***********************************************************************
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>PDosage</title>
+	<link rel="icon" href="dist/logo.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	 .loader {
+	     position: absolute;
+	     left: 50%;
+	     top: 50%;
+	     border: 16px solid lavender;
+	     border-top: 16px solid #428bca;
+	     border-bottom: 16px solid #428bca;
+	     border-radius: 50%;
+	     width: 150px;
+	     height: 150px;
+	     margin: -75px 0 0 -75px;
+	     animation: spin 2s linear infinite;
+	 }
+	 
+	 @keyframes spin {
+	     0% { transform: rotate(0deg); }
+	     100% { transform: rotate(360deg); }
+	 }
+	</style>
+	
+    </head>
+    <body>
+	<div class="loader"></div>
+	<div class="container" style="display:none">
+	    <div class="text-primary">
+		<div class="jumbotron">
+		    <h1>PDosage</h1>
+		    <h2>Pediatric Dose Calculator</h2>
+		</div>
+	    </div>
+	    <div class="row" id="app">
+		<data-input :patient="patient"></data-input>
+		<div>
+		    <ul class="nav nav-tabs">
+			<li class="active"><a href="#fav" data-toggle="tab">Favorites</a></li>
+			<li><a href="#all" data-toggle="tab">All Drugs</a></li>
+			<li><a href="#calc" data-toggle="tab">Calculator</a></li>
+			<li><a href="#about" data-toggle="tab">About</a></li>
+		    </ul>
+		    <div class="tab-content">
+			<div class="tab-pane active" id="fav">
+			    <quick-view :patient="patient" :dosage="dosage" :favs="favs"></quick-view>
+			</div>
+			<div class="tab-pane" id="all">
+			    <list-view :patient="patient" :dosage="dosage" :favs="favs"></list-all>
+			</div>
+			<div class="tab-pane" id="calc">
+			    <calculator-view></calculator-view>
+			</div>
+			<div class="tab-pane" id="about">
+			    <about-view></about-view>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	    <div class="alert alert-info">
+		<h3>Copyright &copy; <span class="copyright" data-start="2016">2016</span> Agnibho Mondal</h3>
+		<h4><a href="http://www.agnibho.com" style="text-decoration:none;color:inherit">www.agnibho.com</a></h4>
+	    </div>
+	</div>
+	<script src="dist/bundle.js"></script>
+    </body>
+</html>

@@ -1,0 +1,206 @@
+{
+    "name": "Drotaverine",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "range": [
+		{
+		    "min": "1y",
+		    "max": "6y",
+		    "dose": {
+			"val": 20,
+			"unit": "mg",
+			"txt": "TDS"
+		    }
+		},
+		{
+		    "min": "6y",
+		    "max": "12y",
+		    "dose": {
+			"val": 40,
+			"unit": "mg",
+			"txt": "TDS"
+		    }
+		},
+		{
+		    "min": "12y",
+		    "dose": {
+			"val": [
+			    40,
+			    80
+			],
+			"unit": "mg",
+			"txt": "TDS"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Inj",
+	    "gen": true,
+	    "range": [
+		{
+		    "min": "1y",
+		    "max": "6y",
+		    "dose": {
+			"val": 20,
+			"unit": "mg",
+			"txt": ""
+		    }
+		},
+		{
+		    "min": "6y",
+		    "max": "12y",
+		    "dose": {
+			"val": 40,
+			"unit": "mg",
+			"txt": ""
+		    }
+		},
+		{
+		    "min": "12y",
+		    "dose": {
+			"val": [
+			    40,
+			    80
+			],
+			"unit": "mg",
+			"txt": ""
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Tab",
+	    "content": "40mg",
+	    "range": [
+		{
+		    "min": "1y",
+		    "max": "6y",
+		    "dose": {
+			"val": 0.5,
+			"unit": "tab",
+			"txt": ""
+		    }
+		},
+		{
+		    "min": "6y",
+		    "max": "12y",
+		    "dose": {
+			"val": 1,
+			"unit": "tab",
+			"txt": ""
+		    }
+		},
+		{
+		    "min": "12y",
+		    "dose": {
+			"val": [
+			    1,
+			    2
+			],
+			"unit": "tab",
+			"txt": ""
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Tab",
+	    "content": "80mg",
+	    "range": [
+		{
+		    "min": "6y",
+		    "max": "12y",
+		    "dose": {
+			"val": 0.5,
+			"unit": "tab",
+			"txt": ""
+		    }
+		},
+		{
+		    "min": "12y",
+		    "dose": {
+			"val": [
+			    0.5,
+			    1
+			],
+			"unit": "tab",
+			"txt": ""
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Susp",
+	    "content": "20mg/5ml",
+	    "range": [
+		{
+		    "min": "1y",
+		    "max": "6y",
+		    "dose": {
+			"val": 5,
+			"unit": "ml",
+			"txt": ""
+		    }
+		},
+		{
+		    "min": "6y",
+		    "max": "12y",
+		    "dose": {
+			"val": 2,
+			"unit": "ml",
+			"txt": ""
+		    }
+		},
+		{
+		    "min": "12y",
+		    "dose": {
+			"val": [
+			    2,
+			    4
+			],
+			"unit": "ml",
+			"txt": ""
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Inj",
+	    "content": "20mg/ml",
+	    "range": [
+		{
+		    "min": "1y",
+		    "max": "6y",
+		    "dose": {
+			"val": 1,
+			"unit": "ml",
+			"txt": ""
+		    }
+		},
+		{
+		    "min": "6y",
+		    "max": "12y",
+		    "dose": {
+			"val": 2,
+			"unit": "ml",
+			"txt": ""
+		    }
+		},
+		{
+		    "min": "12y",
+		    "dose": {
+			"val": [
+			    2,
+			    4
+			],
+			"unit": "tab",
+			"txt": ""
+		    }
+		}
+	    ]
+	}
+    ]
+}

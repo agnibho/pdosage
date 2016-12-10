@@ -1,0 +1,127 @@
+{
+    "name": "Ofloxacin",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": 15,
+		"limit": [
+		    400,
+		    800
+		],
+		"unit": "mg",
+		"txt": "per day q 12 hr"
+	    }
+	},
+	{
+	    "mode": "IV",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    5,
+		    10
+		],
+		"limit": [
+		    400,
+		    800
+		],
+		"unit": "mg",
+		"txt": "per day q 12 hr"
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "100mg",
+	    "dose": {
+		"approx": [
+		    100,
+		    "15*bw"
+		],
+		"limit": [
+		    4,
+		    8
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "200mg",
+	    "dose": {
+		"approx": [
+		    200,
+		    "15*bw"
+		],
+		"limit": [
+		    2,
+		    4
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "400mg",
+	    "dose": {
+		"approx": [
+		    400,
+		    "15*bw"
+		],
+		"limit": [
+		    1,
+		    2
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Susp",
+	    "content": "100mg/5ml",
+	    "dose": {
+		"perKg": 0.75,
+		"limit": [
+		    20,
+		    40
+		],
+		"unit": "ml",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "IV",
+	    "content": "200mg/100ml",
+	    "dose": {
+		"perKg": [
+		    2.5,
+		    5
+		],
+		"limit": [
+		    200,
+		    400
+		],
+		"unit": "ml",
+		"txt": "infusion"
+	    }
+	},
+	{
+	    "mode": "IV",
+	    "content": "400mg/100ml",
+	    "dose": {
+		"perKg": [
+		    1.25,
+		    2.5
+		],
+		"limit": [
+		    100,
+		    200
+		],
+		"unit": "ml",
+		"txt": "infusion"
+	    }
+	}
+    ]
+}

@@ -1,0 +1,218 @@
+{
+    "name": "Paracetamol",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": [
+		{
+		    "perKg": [
+			15,
+			15
+		    ],
+		    "limit": [
+			500,
+			1000
+		    ],
+		    "unit": "mg",
+		    "txt": "q 4-6 hr"
+		},
+		{
+		    "perKg": 60,
+		    "limit": [
+			4000,
+			4000
+		    ],
+		    "unit": "mg",
+		    "txt": "maximum in 24 hrs"
+		}
+	    ]
+	},
+	{
+	    "mode": "Rectal",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    15,
+		    15
+		],
+		"limit": [
+		    500,
+		    1000
+		],
+		"unit": "mg",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "IM",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    5,
+		    5
+		],
+		"limit": [
+		    500,
+		    1000
+		],
+		"unit": "mg",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content":"500mg",
+	    "dose": {
+		"approx": [
+		    500,
+		    "15*bw",
+		    "15*bw"
+		],
+		"limit": [
+		    1,
+		    2
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content":"650mg",
+	    "dose": {
+		"approx": [
+		    650,
+		    "15*bw",
+		    "15*bw"
+		],
+		"limit": [
+		    1,
+		    1.5
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content":"250mg",
+	    "dose": {
+		"approx": [
+		    250,
+		    "15*bw",
+		    "15*bw"
+		],
+		"limit": [
+		    2,
+		    4
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content":"1000mg",
+	    "dose": {
+		"approx": [
+		    1000,
+		    "15*bw",
+		    "15*bw"
+		],
+		"limit": [
+		    1,
+		    1
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Syr",
+	    "content":"125mg/5ml",
+	    "dose": {
+		"perKg": 0.6,
+		"limit": [
+		    20,
+		    40
+		],
+		"unit": "ml",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Syr",
+	    "content":"250mg/5ml",
+	    "dose": {
+		"perKg": 0.3,
+		"limit": [
+		    10,
+		    20
+		],
+		"unit": "ml",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Drop",
+	    "content":"100mg/ml",
+	    "dose": {
+		"perKg": 0.15,
+		"limit": [
+		    5,
+		    10
+		],
+		"unit": "ml",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Rectal",
+	    "content":"125mg",
+	    "dose": {
+		"approx": [
+		    125,
+		    "15*bw",
+		    "15*bw"
+		],
+		"limit": [
+		    4,
+		    8
+		],
+		"unit": "suppositories",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Rectal",
+	    "content":"250mg",
+	    "dose": {
+		"approx": [
+		    250,
+		    "15*bw",
+		    "15*bw"
+		],
+		"limit": [
+		    2,
+		    4
+		],
+		"unit": "suppositories",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "IM",
+	    "content":"150mg/5ml",
+	    "dose": {
+		"perKg": 0.03,
+		"limit": [
+		    3,
+		    6.5
+		],
+		"unit": "ml",
+		"txt": ""
+	    }
+	}
+    ]
+}

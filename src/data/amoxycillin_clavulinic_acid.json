@@ -1,0 +1,155 @@
+{
+    "name": "Amoxycillin / Clavulinic Acid",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    25,
+		    50
+		],
+		"limit": [
+		    250,
+		    500
+		],
+		"unit": "mg",
+		"txt": "q 8-12 hr"
+	    }
+	},
+	{
+	    "mode": "IV",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    50,
+		    100
+		],
+		"limit": [
+		    1200,
+		    1200
+		],
+		"unit": "mg",
+		"txt": "q 6-8 hr"
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content":"375mg",
+	    "dose": {
+		"approx": [
+		    250,
+		    "25*bw",
+		    "50*bw"
+		],
+		"limit": [
+		    1,
+		    2
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content":"625mg",
+	    "dose": {
+		"approx": [
+		    500,
+		    "25*bw",
+		    "50*bw"
+		],
+		"limit": [
+		    0.5,
+		    1
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Syr",
+	    "content":"156mg/5ml",
+	    "dose": {
+		"perKg": [
+		    1,
+		    2
+		],
+		"limit": [
+		    10,
+		    20
+		],
+		"unit": "ml",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "IV",
+	    "content":"150mg",
+	    "dose": {
+		"approx": [
+		    125,
+		    "50*bw",
+		    "100*bw"
+		],
+		"limit": [
+		    8,
+		    8
+		],
+		"unit": "amp",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "IV",
+	    "content":"300mg",
+	    "dose": {
+		"approx": [
+		    250,
+		    "50*bw",
+		    "100*bw"
+		],
+		"limit": [
+		    4,
+		    4
+		],
+		"unit": "amp",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "IV",
+	    "content":"600mg",
+	    "dose": {
+		"approx": [
+		    500,
+		    "50*bw",
+		    "100*bw"
+		],
+		"limit": [
+		    2,
+		    2
+		],
+		"unit": "amp",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "IV",
+	    "content":"1.2gm",
+	    "dose": {
+		"approx": [
+		    1000,
+		    "50*bw",
+		    "100*bw"
+		],
+		"limit": [
+		    1,
+		    1
+		],
+		"unit": "amp",
+		"txt": ""
+	    }
+	}
+    ]
+}

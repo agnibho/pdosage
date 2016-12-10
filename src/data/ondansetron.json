@@ -1,0 +1,177 @@
+{
+    "name": "Ondansetron",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "range": [
+		{
+		    "min": "3y",
+		    "max": "4y",
+		    "dose":
+		    {
+			"val": 2,
+			"unit": "mg",
+			"txt": "q 4 hr"
+		    }
+		},
+		{
+		    "min": "4y",
+		    "max": "11y",
+		    "dose":
+		    {
+			"val": 4,
+			"unit": "mg",
+			"txt": "q 4 hr"
+		    }
+		},
+		{
+		    "min": "8y",
+		    "dose":
+		    {
+			"val": 8,
+			"unit": "mg",
+			"txt": "q 4 hr"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "IV",
+	    "gen": true,
+	    "range": [
+		{
+		    "min": "3y",
+		    "dose": {
+			"perKg": [
+			    0.15,
+			    0.45
+			],
+			"limit": [
+			    8,
+			    8
+			],
+			"unit": "mg",
+			"txt": "q 4 hr slow IV"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Tab",
+	    "content": "4",
+	    "range": [
+		{
+		    "min": "3y",
+		    "max": "4y",
+		    "dose":
+		    {
+			"val": 0.5,
+			"unit": "tab",
+			"txt": "q 4 hr"
+		    }
+		},
+		{
+		    "min": "4y",
+		    "max": "11y",
+		    "dose":
+		    {
+			"val": 1,
+			"unit": "tab",
+			"txt": "q 4 hr"
+		    }
+		},
+		{
+		    "min": "8y",
+		    "dose":
+		    {
+			"val": 2,
+			"unit": "tab",
+			"txt": "q 4 hr"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Tab",
+	    "content": "8mg",
+	    "range": [
+		{
+		    "min": "4y",
+		    "max": "11y",
+		    "dose":
+		    {
+			"val": 0.5,
+			"unit": "tab",
+			"txt": "q 4 hr"
+		    }
+		},
+		{
+		    "min": "8y",
+		    "dose":
+		    {
+			"val": 1,
+			"unit": "tab",
+			"txt": "q 4 hr"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Syr",
+	    "content": "2mg/5ml",
+	    "range": [
+		{
+		    "min": "3y",
+		    "max": "4y",
+		    "dose":
+		    {
+			"val": 5,
+			"unit": "ml",
+			"txt": "q 4 hr"
+		    }
+		},
+		{
+		    "min": "4y",
+		    "max": "11y",
+		    "dose":
+		    {
+			"val": 10,
+			"unit": "ml",
+			"txt": "q 4 hr"
+		    }
+		},
+		{
+		    "min": "8y",
+		    "dose":
+		    {
+			"val": 20,
+			"unit": "ml",
+			"txt": "q 4 hr"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "IV",
+	    "content": "2mg/ml",
+	    "range": [
+		{
+		    "min": "3y",
+		    "dose": {
+			"perKg": [
+			    0.08,
+			    0.22
+			],
+			"limit": [
+			    4,
+			    4
+			],
+			"unit": "ml",
+			"txt": "q 4 hr slow IV"
+		    }
+		}
+	    ]
+	}
+    ]
+}

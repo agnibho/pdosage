@@ -1,0 +1,32 @@
+{
+    "name": "Cefixime",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": 8,
+		"limit": [
+		    400,
+		    400
+		],
+		"unit": "mg",
+		"txt": "OD or BD"
+	    }
+	},
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": 20,
+		"limit": [
+		    400,
+		    400
+		],
+		"unit": "mg",
+		"txt": "OD or BD",
+		"comment": "for enteric fever"
+	    }
+	}
+    ]
+}

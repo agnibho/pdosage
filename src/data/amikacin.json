@@ -1,0 +1,77 @@
+{
+    "name": "Amikacin",
+    "form": [
+	{
+	    "mode": "Inj",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    15,
+		    20
+		],
+		"limit": [
+		    1500,
+		    1500
+		],
+		"unit": "mg",
+		"txt": "IM or IV per day q 8-12 hr",
+		"comment": "infusion over 1 hr"
+	    }
+	},
+	{
+	    "mode": "Inj",
+	    "content": "100mg",
+	    "dose": {
+		"approx": [
+		    100,
+		    "15*bw",
+		    "20*bw"
+		],
+		"limit": [
+		    15,
+		    15
+		],
+		"unit": "vial",
+		"txt": "",
+		"comment": ""
+	    }
+	},
+	{
+	    "mode": "Inj",
+	    "content": "250mg",
+	    "dose": {
+		"approx": [
+		    250,
+		    "15*bw",
+		    "20*bw"
+		],
+		"limit": [
+		    6,
+		    6
+		],
+		"unit": "vial",
+		"txt": "",
+		"comment": ""
+	    }
+	},
+	{
+	    "mode": "Inj",
+	    "content": "500mg",
+	    "dose": {
+		"approx": [
+		    500,
+		    "15*bw",
+		    "20*bw"
+		],
+		"limit": [
+		    3,
+		    3
+		],
+		"unit": "vial",
+		"txt": "",
+		"comment": ""
+	    }
+	}
+    ],
+    "comment": "Adjust dose in renal failure."
+}

@@ -1,0 +1,87 @@
+{
+    "name": "Domperidone",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    0.2,
+		    0.4
+		],
+		"limit": [
+		    10,
+		    20
+		],
+		"unit": "mg",
+		"txt": "q 4-8 hr"
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "10mg",
+	    "dose": {
+		"approx": [
+		    10,
+		    "0.2*bw",
+		    "0.4*bw"
+		],
+		"limit": [
+		    1,
+		    2
+		],
+		"unit": "tab",
+		"txt": "q 4-8 hr"
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "5mg",
+	    "dose": {
+		"approx": [
+		    5,
+		    "0.2*bw",
+		    "0.4*bw"
+		],
+		"limit": [
+		    2,
+		    4
+		],
+		"unit": "tab",
+		"txt": "q 4-8 hr"
+	    }
+	},
+	{
+	    "mode": "Susp",
+	    "content": "5mg/5ml",
+	    "dose": {
+		"perKg": [
+		    0.2,
+		    0.4
+		],
+		"limit": [
+		    10,
+		    20
+		],
+		"unit": "ml",
+		"txt": "q 4-8 hr"
+	    }
+	},
+	{
+	    "mode": "Drop",
+	    "content": "10mg/ml",
+	    "dose": {
+		"perKg": [
+		    0.02,
+		    0.04
+		],
+		"limit": [
+		    1,
+		    2
+		],
+		"unit": "ml",
+		"txt": "q 4-8 hr"
+	    }
+	}
+    ]
+}

@@ -1,0 +1,143 @@
+{
+    "name": "Hydroxyzine",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "range": [
+		{
+		    "min": "6m",
+		    "dose": {
+			"perKg": 2,
+			"limit": [
+			    50,
+			    200
+			],
+			"unit": "mg",
+			"txt": "per day q 6 hr"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "IM",
+	    "gen": true,
+	    "range": [
+		{
+		    "min": "6m",
+		    "dose": {
+			"perKg": [
+			    0.5,
+			    1
+			],
+			"limit": [
+			    50,
+			    200
+			],
+			"unit": "mg",
+			"txt": "q 4-6 hr"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Tab",
+	    "content": "10mg",
+	    "range": [
+		{
+		    "min": "6m",
+		    "dose": {
+			"approx": [
+			    10,
+			    "2*bw"
+			],
+			"limit": [
+			    5,
+			    20
+			],
+			"unit": "tab",
+			"txt": "per day q 6 hr"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Tab",
+	    "content": "25",
+	    "range": [
+		{
+		    "min": "6m",
+		    "dose": {
+			"approx": [
+			    25,
+			    "2*bw"
+			],
+			"limit": [
+			    2,
+			    8
+			],
+			"unit": "tab",
+			"txt": "per day q 6 hr"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Syr",
+	    "content": "10mg/5ml",
+	    "range": [
+		{
+		    "min": "6m",
+		    "dose": {
+			"perKg": 1,
+			"limit": [
+			    25,
+			    100
+			],
+			"unit": "ml",
+			"txt": "per day q 6 hr"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Drop",
+	    "content": "6mg/ml",
+	    "range": [
+		{
+		    "min": "6m",
+		    "dose": {
+			"perKg": 0.33,
+			"limit": [
+			    8.33,
+			    33.33
+			],
+			"unit": "ml",
+			"txt": "per day q 6 hr"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "IM",
+	    "content": "25mg/ml",
+	    "range": [
+		{
+		    "min": "6m",
+		    "dose": {
+			"perKg": [
+			    0.02,
+			    0.04
+			],
+			"limit": [
+			    2,
+			    8
+			],
+			"unit": "ml",
+			"txt": ""
+		    }
+		}
+	    ]
+	}
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Ceftriaxone",
+    "form": [
+	{
+	    "mode": "Inj",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    50,
+		    75
+		],
+		"limit": [
+		    1000,
+		    1000
+		],
+		"unit": "mg",
+		"txt": "IV q 12-24 hr"
+	    }
+	},
+	{
+	    "mode": "Inj",
+	    "dose": {
+		"perKg": 50,
+		"limit": [
+		    1000,
+		    1000
+		],
+		"unit": "mg",
+		"txt": "IV q 12 hr",
+		"comment": "for Meningitis. Max 4 gm."
+	    }
+	},
+	{
+	    "mode": "Inj",
+	    "range": [
+		{
+		    "max": "1y",
+		    "dose": {
+			"perKg": [
+			    25,
+			    50
+			],
+			"limit": [
+			    125,
+			    125
+			],
+			"unit": "mg",
+			"txt": "single IM or IV for gonococcal ophthalmia neonatoram."
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Inj",
+	    "dose": {
+		"val": 125,
+		"unit": "mg",
+		"txt": "single IM",
+		"comment": "prophylaxis for N. meningitidis."
+	    }
+	}
+    ]
+}

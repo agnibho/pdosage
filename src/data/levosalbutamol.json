@@ -1,0 +1,134 @@
+{
+    "name": "Levosalbutamol",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    0.05,
+		    0.2
+		],
+		"limit": [
+		    1,
+		    2
+		],
+		"unit": "mg",
+		"txt": "2-3 times a day"
+	    }
+	},
+	{
+	    "mode": "Tab.",
+	    "content": "1mg",
+	    "dose": {
+		"approx": [
+		    1,
+		    "0.05*bw",
+		    "0.2*bw"
+		],
+		"limit": [
+		    1,
+		    2
+		],
+		"unit": "tab",
+		"txt": "2-3 times a day"
+	    }
+	},
+	{
+	    "mode": "Tab.",
+	    "content": "2mg",
+	    "dose": {
+		"approx": [
+		    2,
+		    "0.05*bw",
+		    "0.2*bw"
+		],
+		"limit": [
+		    1,
+		    2
+		],
+		"unit": "tab",
+		"txt": "2-3 times a day"
+	    }
+	},
+	{
+	    "mode": "Syr.",
+	    "content": "1mg/5ml",
+	    "dose": {
+		"perKg": [
+		    0.25,
+		    1
+		],
+		"limit": [
+		    5,
+		    10
+		],
+		"unit": "ml",
+		"txt": "2-3 times a day"
+	    }
+	},
+	{
+	    "mode": "Syr.",
+	    "content": "0.5mg/5ml",
+	    "dose": {
+		"perKg": [
+		    0.5,
+		    2
+		],
+		"limit": [
+		    10,
+		    20
+		],
+		"unit": "ml",
+		"txt": "2-3 times a day"
+	    }
+	},
+	{
+	    "mode": "Resp.",
+	    "range": [
+		{
+		    "min": "2m",
+		    "max": "6m",
+		    "dose": {
+			"val": "0.31",
+			"unit": "mg"
+		    }
+		},
+		{
+		    "min": "6m",
+		    "max": "1y",
+		    "dose": {
+			"val": "0.63",
+			"unit": "mg"
+		    }
+		},
+		{
+		    "min": "2m",
+		    "dose": {
+			"val": "1.25",
+			"unit": "mg"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "MDI",
+	    "content": "50mcg/puff",
+	    "dose": [
+		{
+		    "val": [
+			2,
+			4
+		    ],
+		    "unit": "puffs",
+		    "txt": "upto 3 at 20 mins interval"
+		},
+		{
+		    "val": 2,
+		    "unit": "puffs",
+		    "txt": "every 4-6 hrs following initial Tx"
+		}
+	    ]
+	}
+    ]
+}

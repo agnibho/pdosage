@@ -1,0 +1,58 @@
+{
+    "name": "Zinc",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "range" : [
+		{
+		    "max": "1y",
+		    "dose": {
+			"perKg": 0.5,
+			"unit": "mg",
+			"txt": "per day",
+			"comment": "for deficiency"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "range" : [
+		{
+		    "max": "6m",
+		    "dose": {
+			"val": 10,
+			"unit": "mg",
+			"txt": "per day",
+			"comment": "for acute and persistent diarrhea > 14 days"
+		    }
+		},
+		{
+		    "min": "6m",
+		    "dose": {
+			"val": 20,
+			"unit": "mg",
+			"txt": "per day",
+			"comment": "for acute and persistent diarrhea > 14 days"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": 6,
+		"limit": [
+		    220,
+		    220
+		],
+		"unit": "mg",
+		"txt": "per day",
+		"comment": "for acrodermatitis"
+	    }
+	}
+    ]	
+}
