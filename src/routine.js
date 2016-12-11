@@ -24,6 +24,8 @@
  **********************************************************************/
 
 $(document).ready(function(){
+    //Disable cache
+    $.ajaxSetup({"cache": false});
 
     //Remove loader
     $(".loader").remove();

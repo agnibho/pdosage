@@ -72,9 +72,12 @@ new Vue({
 	    }
 	}
 	try{
-	    loc=JSON.parse(localStorage.getItem("pdosage_data"));
-	    if(loc.timestamp>data.timestamp){
+	    var loc=JSON.parse(localStorage.getItem("pdosage_data"));
+	    if(loc.version>data.version){
 		this.dosage=new Dosage(loc.dosage);
+	    }
+	    else{
+		localStorage.setItem("pdosage_data", JSON.stringify(data));
 	    }
 	}
 	catch(e){
