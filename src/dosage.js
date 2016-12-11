@@ -105,6 +105,9 @@ export default function Dosage(data){
 	    var min=0;
 	    var max=0;
 	    var type="";
+	    if(patient.age.y===null && patient.age.m===null && patient.age.d===null){
+		return null;
+	    }
 	    var pDays=patient.age.y*365+patient.age.m*30+patient.age.d;
 	    for(var i=0; i<form.range.length; i++){
 		if(form.range[i].hasOwnProperty("min")){

@@ -2,7 +2,7 @@ var DATA_SRC="./src/data/";
 var DATA_FILE="./src/data.json";
 var fs=require("fs");
 
-var bigData={id:"com.agnibho.com.pdosage.data", timestamp: Date.now(), version: 0, dosage:[]};
+var bigData={id:"com.agnibho.com.pdosage.data", timestamp: Date.now(), version: 0};
 
 if(process.argv[2]=="watch"){
     fs.watch(DATA_SRC, jsonCat);
@@ -12,6 +12,7 @@ else{
 }
 
 function jsonCat(){
+    bigData.dosage=[];
     console.log("Joining JSON data files");
     var files=fs.readdirSync(DATA_SRC);
     for(var i=0; i<files.length; i++){

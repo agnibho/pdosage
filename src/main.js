@@ -72,11 +72,16 @@ new Vue({
 	    }
 	}
 	try{
-	    this.dosage=new Dosage(JSON.parse(localStorage.getItem("pdosage_data")).dosage);
+	    loc=JSON.parse(localStorage.getItem("pdosage_data"));
+	    if(loc.timestamp>data.timestamp){
+		this.dosage=new Dosage(loc.dosage);
+	    }
 	}
 	catch(e){
-	    this.dosage=new Dosage(data.dosage);
-	    localStorage.setItem("pdosage_data", data);
+	    if(!this.dosage){
+		this.dosage=new Dosage(data.dosage);
+		localStorage.setItem("pdosage_data", JSON.stringify(data));
+	    }
 	}
     }
 });

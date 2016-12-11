@@ -1,0 +1,151 @@
+{
+    "name": "Cefuroxime",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    20,
+		    30
+		],
+		"limit": [
+		    500,
+		    1000
+		],
+		"unit": "mg",
+		"txt": "per day q 12 hr PC"
+	    }
+	},
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": 40,
+		"limit": [
+		    500,
+		    1000
+		],
+		"unit": "mg",
+		"txt": "per day q 12 hr PC",
+		"comment": "for enteric fever"
+	    }
+	},
+	{
+	    "mode": "Inj",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    100,
+		    150
+		],
+		"limit": [
+		    2250,
+		    2250
+		],
+		"unit": "mg",
+		"txt": "per day IM or IV"
+	    }
+	},
+	{
+	    "mode": "Inj",
+	    "gen": true,
+	    "range": [
+		{
+		    "min": "12y",
+		    "dose": {
+			"perKg": 1.5,
+			"unit": "gm",
+			"txt": "q 8 hr IM or IV",
+			"comment": "for severe infections"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Tab",
+	    "content": "125mg",
+	    "dose": {
+		"approx": [
+		    125,
+		    "20*bw",
+		    "30*bw"
+		],
+		"limit": [
+		    4,
+		    8
+		],
+		"unit": "tab",
+		"txt": "per day q 12 hr PC"
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "250mg",
+	    "dose": {
+		"approx": [
+		    250,
+		    "20*bw",
+		    "30*bw"
+		],
+		"limit": [
+		    2,
+		    4
+		],
+		"unit": "tab",
+		"txt": "per day q 12 hr PC"
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "500mg",
+	    "dose": {
+		"approx": [
+		    500,
+		    "20*bw",
+		    "30*bw"
+		],
+		"limit": [
+		    1,
+		    2
+		],
+		"unit": "tab",
+		"txt": "per day q 12 hr PC"
+	    }
+	},
+	{
+	    "mode": "Syr",
+	    "content": "125mg/5ml",
+	    "dose": {
+		"perKg": [
+		    0.8,
+		    1.2
+		],
+		"limit": [
+		    20,
+		    40
+		],
+		"unit": "ml",
+		"txt": "per day q 12 hr PC"
+	    }
+	},
+	{
+	    "mode": "Inj",
+	    "content": "250mg",
+	    "dose": {
+		"approx": [
+		    250,
+		    "100*bw",
+		    "150*bw"
+		],
+		"limit": [
+		    2,
+		    4
+		],
+		"unit": "vial",
+		"txt": "per day q 6-8 hr IV or IM"
+	    }
+	}
+    ],
+    "comment": "Also available Inj 750mg and 1.5gm."
+}

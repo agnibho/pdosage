@@ -1,0 +1,90 @@
+{
+    "name": "Aciclovir",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "range": [
+		{
+		    "min": "2y",
+		    "dose": {
+			"perKg": 80,
+			"limit": [
+			    3200,
+			    3200
+			],
+			"unit": "mg",
+			"txt": "per day q 6 hr x 5d",
+			"comment": "for Varicella in immunocompetent host"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "range": [
+		{
+		    "min": "2y",
+		    "dose": {
+			"perKg": 80,
+			"limit": [
+			    3200,
+			    3200
+			],
+			"unit": "mg",
+			"txt": "per day q 8 hr x 7-10d",
+			"comment": "for Varicella in immunocompromised host"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "range": [
+		{
+		    "min": "12y",
+		    "dose": {
+			"val": 200,
+			"unit": "mg",
+			"txt": "q 4 hr x 5d",
+			"comment": "for H. Simplex"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "IV",
+	    "gen": true,
+	    "range": [
+		{
+		    "max": "3m",
+		    "dose": {
+			"perKg": 10,
+			"unit": "mg",
+			"txt": "q 8 hr x 14-21d",
+			"comment": "for Neonatal HSV"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "IV",
+	    "gen": true,
+	    "range": [
+		{
+		    "min": "3m",
+		    "max": "12y",
+		    "dose": {
+			"perKg": 20,
+			"unit": "mg",
+			"txt": "q 8 hr x 21d",
+			"comment": "for HSV encephalitis"
+		    }
+		}
+	    ]
+	}
+    ],
+    "comment": "Conc. for IV- 7mg/ml. Available forms- Tab 200mg,400mg,800mg; Susp 400mg/5ml; Inj 250mg; Ointment 3%(eye),5%(skin)."
+}

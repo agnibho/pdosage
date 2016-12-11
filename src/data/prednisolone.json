@@ -1,0 +1,153 @@
+{
+    "name": "Prednisolone",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    1,
+		    2
+		],
+		"limit": [
+		    60,
+		    60
+		],
+		"unit": "mg",
+		"txt": "per day q 6-8 hr"
+	    }
+	},
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "range": [
+		{
+		    "max": "12y",
+		    "dose": {
+			"perKg": 2,
+			"unit": "mg",
+			"txt": "per day q 12 hr",
+			"comment": "as anti-convulsant in children for 2-6 w, taper over 4-12 w."
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Tab",
+	    "content": "5mg",
+	    "dose": {
+		"approx": [
+		    5,
+		    "1*bw",
+		    "2*bw"
+		],
+		"limit": [
+		    12,
+		    12
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "10mg",
+	    "dose": {
+		"approx": [
+		    10,
+		    "1*bw",
+		    "2*bw"
+		],
+		"limit": [
+		    6,
+		    6
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "20mg",
+	    "dose": {
+		"approx": [
+		    20,
+		    "1*bw",
+		    "2*bw"
+		],
+		"limit": [
+		    3,
+		    3
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "30mg",
+	    "dose": {
+		"approx": [
+		    30,
+		    "1*bw",
+		    "2*bw"
+		],
+		"limit": [
+		    2,
+		    2
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "40mg",
+	    "dose": {
+		"approx": [
+		    40,
+		    "1*bw",
+		    "2*bw"
+		],
+		"limit": [
+		    1.5,
+		    1.5
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Syr",
+	    "content": "5mg/5ml",
+	    "dose": {
+		"perKg": [
+		    1,
+		    2
+		],
+		"limit": [
+		    60,
+		    60
+		],
+		"unit": "ml",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Syr",
+	    "content": "15mg/5ml",
+	    "dose": {
+		"perKg": [
+		    0.33,
+		    0.66
+		],
+		"limit": [
+		    20,
+		    20
+		],
+		"unit": "ml",
+		"txt": ""
+	    }
+	}
+    ]
+}

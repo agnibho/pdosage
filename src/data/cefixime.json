@@ -27,6 +27,83 @@
 		"txt": "OD or BD",
 		"comment": "for enteric fever"
 	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "50mg",
+	    "dose": {
+		"approx": [
+		    50,
+		    "8*bw"
+		],
+		"limit": [
+		    8,
+		    8
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "100mg",
+	    "dose": {
+		"approx": [
+		    100,
+		    "8*bw"
+		],
+		"limit": [
+		    4,
+		    4
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "200mg",
+	    "dose": {
+		"approx": [
+		    200,
+		    "8*bw"
+		],
+		"limit": [
+		    2,
+		    2
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "400mg",
+	    "dose": {
+		"approx": [
+		    400,
+		    "8*bw"
+		],
+		"limit": [
+		    1,
+		    1
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Syr",
+	    "content": "100mg/5ml",
+	    "dose": {
+		"perKg": 0.4,
+		"limit": [
+		    20,
+		    20
+		],
+		"unit": "ml",
+		"txt": ""
+	    }
 	}
     ]
 }
