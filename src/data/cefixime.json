@@ -6,7 +6,7 @@
 	    "gen": true,
 	    "dose": {
 		"perKg": 8,
-		"limit": [
+		"adult": [
 		    400,
 		    400
 		],
@@ -19,7 +19,7 @@
 	    "gen": true,
 	    "dose": {
 		"perKg": 20,
-		"limit": [
+		"adult": [
 		    400,
 		    400
 		],
@@ -36,7 +36,7 @@
 		    50,
 		    "8*bw"
 		],
-		"limit": [
+		"adult": [
 		    8,
 		    8
 		],
@@ -52,7 +52,7 @@
 		    100,
 		    "8*bw"
 		],
-		"limit": [
+		"adult": [
 		    4,
 		    4
 		],
@@ -68,7 +68,7 @@
 		    200,
 		    "8*bw"
 		],
-		"limit": [
+		"adult": [
 		    2,
 		    2
 		],
@@ -84,7 +84,7 @@
 		    400,
 		    "8*bw"
 		],
-		"limit": [
+		"adult": [
 		    1,
 		    1
 		],
@@ -97,7 +97,7 @@
 	    "content": "100mg/5ml",
 	    "dose": {
 		"perKg": 0.4,
-		"limit": [
+		"adult": [
 		    20,
 		    20
 		],

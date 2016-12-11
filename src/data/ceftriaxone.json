@@ -9,7 +9,7 @@
 		    50,
 		    75
 		],
-		"limit": [
+		"adult": [
 		    1000,
 		    1000
 		],
@@ -19,9 +19,10 @@
 	},
 	{
 	    "mode": "Inj",
+	    "gen": true,
 	    "dose": {
 		"perKg": 50,
-		"limit": [
+		"adult": [
 		    1000,
 		    1000
 		],
@@ -32,6 +33,7 @@
 	},
 	{
 	    "mode": "Inj",
+	    "gen": true,
 	    "range": [
 		{
 		    "max": "1y",
@@ -40,7 +42,7 @@
 			    25,
 			    50
 			],
-			"limit": [
+			"adult": [
 			    125,
 			    125
 			],
@@ -52,11 +54,80 @@
 	},
 	{
 	    "mode": "Inj",
+	    "gen": true,
 	    "dose": {
 		"val": 125,
 		"unit": "mg",
 		"txt": "single IM",
 		"comment": "prophylaxis for N. meningitidis."
+	    }
+	},
+	{
+	    "mode": "Inj",
+	    "content": "125mg",
+	    "dose": {
+		"approx": [
+		    125,
+		    "50*bw",
+		    "75*bw"
+		],
+		"adult": [
+		    8,
+		    8
+		],
+		"unit": "vial",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Inj",
+	    "content": "250mg",
+	    "dose": {
+		"approx": [
+		    250,
+		    "50*bw",
+		    "75*bw"
+		],
+		"adult": [
+		    4,
+		    4
+		],
+		"unit": "vial",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Inj",
+	    "content": "500mg",
+	    "dose": {
+		"approx": [
+		    500,
+		    "50*bw",
+		    "75*bw"
+		],
+		"adult": [
+		    2,
+		    2
+		],
+		"unit": "vial",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Inj",
+	    "content": "1000mg",
+	    "dose": {
+		"approx": [
+		    1000,
+		    "50*bw",
+		    "75*bw"
+		],
+		"adult": [
+		    1,
+		    1
+		],
+		"unit": "vial",
+		"txt": ""
 	    }
 	}
     ]

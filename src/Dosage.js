@@ -195,7 +195,14 @@ export default function Dosage(data){
 	}
 
 	function setLimit(dose){
-	    //console.log(">>"+JSON.stringify(dose));
+	    if(dose.adult && dose.val){
+		if(dose.val[0]>dose.adult[0]){
+		    dose.val[0]=dose.adult[0];
+		}
+		if(dose.val[1]>dose.adult[1]){
+		    dose.val[1]=dose.adult[1];
+		}
+	    }
 	    if(dose.limit && dose.val){
 		if(dose.val[0]>dose.limit[0]){
 		    dose.val[0]=dose.limit[0];

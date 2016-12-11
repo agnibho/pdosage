@@ -30,11 +30,13 @@
 	<div class="col-md-6 col-md-offset-3">
 	    <div class="panel panel-default">
 		<div class="panel-heading">
-		    <h3>About PDosage</h3>
+		    <h3>About PDosage <span class="version"></span></h3>
 		</div>
 		<div class="panel-body">
 		    <p>PDosage is a web application for calculating dosage of some commonly used drugs. Although it's primarily designed for the practice of Pediatrics, it also provides adult doses of drugs, making it useful for other disciplines too.</p>
 		    <p>PDosage is written in Javascript.</p>
+		    <p>App Version: <span class="version"></span></p>
+		    <p>Data version: <span class="data-ver"></span></p>
 		    <p>Copyright &copy; <span class="copyright" data-start="2016">2016</span> Agnibho Mondal</p>
 		    <p>E-mail: mail@agnibho.com</p>
 		</div>

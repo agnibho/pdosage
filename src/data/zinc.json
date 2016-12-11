@@ -45,7 +45,7 @@
 	    "gen": true,
 	    "dose": {
 		"perKg": 6,
-		"limit": [
+		"adult": [
 		    220,
 		    220
 		],

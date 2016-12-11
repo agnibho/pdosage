@@ -31,6 +31,7 @@ $(document).ready(function(){
 
     //Insert version code
     $(".version").text(VERSION);
+    $(".data-ver").text(JSON.parse(localStorage.getItem("pdosage_data")).version);
 
     //Update copyright
     $(".copyright").each(function(){

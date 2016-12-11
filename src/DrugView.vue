@@ -71,10 +71,24 @@
 					    <template v-for="i in item.dose">
 						<template v-if="i.val[0]">
 						    <tr>
-							<td class="active">Dose:</td>
-							<td>{{i.val[0]}}<span v-if="i.val[1]"> - {{i.val[1]}}</span> {{i.unit}} </td>
+							<td class="active" rowspan="2">Dose:</td>
+							<td>{{i.val[0]}}<span v-if="i.val[1]"> - {{i.val[1]}}</span> {{i.unit}}</td>
 							<td><span v-if="i.txt">{{i.txt}}</span><span v-else>per dose</span></td>
-							<td v-if="i.comment">{{i.comment}}</td>
+						    </tr>
+						    <tr>
+							<td><template v-if="i.perKg && (!i.limit || i.limit[0]!=i.val[0] || i.limit[1]!=i.val[1])">
+							    <template v-if="i.perKg">
+								<span v-if="i.perKg[0]">( {{i.perKg[0]}}<span v-if="i.perKg[1]">-{{i.perKg[1]}}</span> {{i.unit}}/kg</span>
+								<template v-if="i.adult">
+								    ; Adult: {{i.adult[0]}}<span v-if="i.adult[1] && i.adult[1]!=i.adult[0]">-{{i.adult[1]}}</span> {{i.unit}}
+								</template>
+								<template v-if="i.limit">
+								    ; Limit: {{i.limit[0]}}<span v-if="i.limit[1] && i.limit[1]!=i.limit[0]">-{{i.limit[1]}}</span> {{i.unit}}
+								</template>
+								)
+							    </template>
+							</td>
+							<td><span v-if="i.comment">{{i.comment}}</span></td>
 						    </tr>
 						</template>
 					    </template>

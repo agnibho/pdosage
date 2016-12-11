@@ -1,0 +1,110 @@
+{
+    "name": "Diazepam",
+    "form": [
+	{
+	    "mode": "Inj",
+	    "gen": true,
+	    "range": [
+		{
+		    "max": "1m",
+		    "dose": [
+			{
+			    "val": [
+				1,
+				5
+			    ],
+			    "unit": "mg",
+			    "txt": "slow IV for Neonatal Tetanus, max 2mg/kg, every 2-4 hrs alternating with Chlorpromazine."
+			},
+			{
+			    "perKg": [
+				15,
+				40
+			    ],
+			    "unit": "mg",
+			    "txt": "per day continuous infusion for Neonatal Tetanus."
+			}
+		    ]
+		},
+		{
+		    "min": "1m",
+		    "max": "5y",
+		    "dose": {
+			"perKg": [
+			    0.2,
+			    0.5
+			],
+			"limit": [
+			    5,
+			    5
+			],
+			"unit": "mg",
+			"txt": "IV or IM as anti-convulsant, maybe repeated q 3-5 mins"
+		    }
+		},
+		{
+		    "min": "5y",
+		    "dose": {
+			"perKg": [
+			    0.2,
+			    0.5
+			],
+			"limit": [
+			    10,
+			    10
+			],
+			"unit": "mg",
+			"txt": "IV or IM as anti-convulsant, maybe repeated q 3-5 mins"
+		    }
+		}
+	    ]
+	},
+	{
+	    "mode": "Oral/IV/IM",
+	    "gen": true,
+	    "range": [
+		{
+		    "max": "12y",
+		    "dose": {
+			"perKg": [
+			    0.1,
+			    0.2
+			],
+			"unit": "mg",
+			"txt": ""
+		    }
+		},
+		{
+		    "min": "12y",
+		    "dose": [
+			{
+			    "val": [
+				2,
+				10
+			    ],
+			    "unit": "mg",
+			    "txt": "per day for anxiety"
+			},
+			{
+			    "val": [
+				5,
+				10
+			    ],
+			    "unit": "mg",
+			    "txt": "at bedtime for Insomnia"
+			},
+			{
+			    "val": [
+				10,
+				30
+			    ],
+			    "unit": "mg",
+			    "txt": "for muscle spasms & premedication"
+			}
+		    ]
+		}
+	    ]
+	}
+    ],
+    "comment": "Available forms- Tab 2mg,5mg,10mg; Syr 2mg/5ml; Inj 10mg/2ml; Rectal sol 2mg/ml,5mg/5ml; Suppository 2.5mg,5mg"
+}

@@ -1,0 +1,65 @@
+{
+    "name": "Valproate",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": [
+		{
+		    "perKg": [
+			10,
+			15
+		    ],
+		    "adult": [
+			600,
+			600
+		    ],
+		    "unit": "mg",
+		    "txt": "per day q 12 hr initially"
+		},
+		{
+		    "perKg": [
+			5,
+			10
+		    ],
+		    "adult": [
+			200,
+			200
+		    ],
+		    "unit": "mg",
+		    "txt": "per day; increment at weekly interval"
+		},
+		{
+		    "perKg": 60,
+		    "adult": [
+			5000,
+			5000
+		    ],
+		    "unit": "mg",
+		    "txt": "per day; maximum dose",
+		    "comment": "usual adult dose 1-2gm/day"
+		}
+	    ]
+	},
+	{
+	    "mode": "IV",
+	    "gen": true,
+	    "dose": [
+		{
+		    "perKg": 20,
+		    "unit": "mg",
+		    "txt": "loading dose"
+		},
+		{
+		    "perKg": [
+			5,
+			10
+		    ],
+		    "unit": "q 8 hr",
+		    "txt": "maintenance dose @ 20mg/min max"
+		}
+	    ]
+	}
+    ],
+    "comment": "Available forms- Tab 200mg,300mg,400mg,500mg; Syr 200mg/5ml; Inj 100mg/ml."
+}

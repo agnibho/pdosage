@@ -75,10 +75,10 @@
      props:["patient"],
      data:function(){
 	 return{
-	     inWt: "",
-	     inAgeY: "",
-	     inAgeM: "",
-	     inAgeD: ""
+	     inWt: this.patient.wt,
+	     inAgeY: this.patient.age.y,
+	     inAgeM: this.patient.age.m,
+	     inAgeD: this.patient.age.d
 	 }
      },
      watch: {

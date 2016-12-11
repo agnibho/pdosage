@@ -1,0 +1,173 @@
+{
+    "name": "Phenytoin",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    5,
+		    8
+		],
+		"adult": [
+		    150,
+		    300
+		],
+		"unit": "mg",
+		"txt": "per day q 12 hr or single dose",
+		"comment": "Increased to max 200-400mg in adults"
+	    }
+	},
+	{
+	    "mode": "IV",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    15,
+		    20
+		],
+		"unit": "mg",
+		"txt": "Loading dose @ 1mg/kg/min",
+		"comment": "diluted in NS, require cardiac monitoring"
+	    }
+	},
+	{
+	    "mode": "IV",
+	    "gen": true,
+	    "dose": [
+		{
+		    "perKg": 1.25,
+		    "adult":[
+			1500,
+			1500
+		    ],
+		    "unit": "mg",
+		    "txt": "q 5min",
+		    "comment": "Loading dose for arrythmia"
+		},
+		{
+		    "perKg": 15,
+		    "adult":[
+			1500,
+			1500
+		    ],
+		    "unit": "mg",
+		    "txt": "",
+		    "comment": "Max loading dose for arrythmia"
+		},
+		{
+		    "perKg": [
+			5,
+			10
+		    ],
+		    "unit": "mg",
+		    "txt": "per day q 12 hr",
+		    "comment": "Maintenance dose for arrythmia"
+		}
+	    ]
+	},
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    5,
+		    10
+		],
+		"unit": "mg",
+		"txt": "per day q 12 hr",
+		"comment": "Maintenance dose for arrythmia"
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "50mg",
+	    "dose": {
+		"approx": [
+		    50,
+		    "5*bw",
+		    "8*bw"
+		],
+		"adult": [
+		    3,
+		    6
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Tab",
+	    "content": "100mg",
+	    "dose": {
+		"approx": [
+		    100,
+		    "5*bw",
+		    "8*bw"
+		],
+		"adult": [
+		    1.5,
+		    3
+		],
+		"unit": "tab",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Susp",
+	    "content": "125mg/5ml",
+	    "dose": {
+		"perKg": [
+		    0.2,
+		    0.32
+		],
+		"adult": [
+		    6,
+		    12
+		],
+		"unit": "ml",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "Syr",
+	    "content": "30mg/5ml",
+	    "dose": {
+		"perKg": [
+		    0.8,
+		    1.3
+		],
+		"adult": [
+		    25,
+		    50
+		],
+		"unit": "ml",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "IV",
+	    "content": "25mg/ml",
+	    "dose": {
+		"perKg": [
+		    0.6,
+		    0.8
+		],
+		"unit": "ml",
+		"txt": ""
+	    }
+	},
+	{
+	    "mode": "IV",
+	    "content": "50mg/ml",
+	    "dose": {
+		"perKg": [
+		    0.3,
+		    0.4
+		],
+		"unit": "ml",
+		"txt": ""
+	    }
+	}
+    ]
+}

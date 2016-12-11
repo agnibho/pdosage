@@ -36,7 +36,7 @@ import "bootstrap";
 import "bootstrap-validator";
 
 //Backend files
-import Dosage from "./dosage.js";
+import Dosage from "./Dosage.js";
 import data from "./data.json";
 
 //Vue Components
@@ -58,7 +58,7 @@ new Vue({
 	"about-view": AboutView
     },
     data: {
-	patient: {age: {y:null, m:null, d:null}, wt:null},
+	patient: {age: {y:30, m:null, d:null}, wt:50},
 	dosage: "",
 	favs: "[]"
     },

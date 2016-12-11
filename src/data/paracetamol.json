@@ -6,11 +6,8 @@
 	    "gen": true,
 	    "dose": [
 		{
-		    "perKg": [
-			15,
-			15
-		    ],
-		    "limit": [
+		    "perKg": 15,
+		    "adult": [
 			500,
 			1000
 		    ],
@@ -19,7 +16,7 @@
 		},
 		{
 		    "perKg": 60,
-		    "limit": [
+		    "adult": [
 			4000,
 			4000
 		    ],
@@ -32,11 +29,8 @@
 	    "mode": "Rectal",
 	    "gen": true,
 	    "dose": {
-		"perKg": [
-		    15,
-		    15
-		],
-		"limit": [
+		"perKg": 15,
+		"adult": [
 		    500,
 		    1000
 		],
@@ -48,11 +42,8 @@
 	    "mode": "IM",
 	    "gen": true,
 	    "dose": {
-		"perKg": [
-		    5,
-		    5
-		],
-		"limit": [
+		"perKg": 5,
+		"adult": [
 		    500,
 		    1000
 		],
@@ -69,7 +60,7 @@
 		    "15*bw",
 		    "15*bw"
 		],
-		"limit": [
+		"adult": [
 		    1,
 		    2
 		],
@@ -86,7 +77,7 @@
 		    "15*bw",
 		    "15*bw"
 		],
-		"limit": [
+		"adult": [
 		    1,
 		    1.5
 		],
@@ -103,7 +94,7 @@
 		    "15*bw",
 		    "15*bw"
 		],
-		"limit": [
+		"adult": [
 		    2,
 		    4
 		],
@@ -120,7 +111,7 @@
 		    "15*bw",
 		    "15*bw"
 		],
-		"limit": [
+		"adult": [
 		    1,
 		    1
 		],
@@ -133,7 +124,7 @@
 	    "content":"125mg/5ml",
 	    "dose": {
 		"perKg": 0.6,
-		"limit": [
+		"adult": [
 		    20,
 		    40
 		],
@@ -146,7 +137,7 @@
 	    "content":"250mg/5ml",
 	    "dose": {
 		"perKg": 0.3,
-		"limit": [
+		"adult": [
 		    10,
 		    20
 		],
@@ -159,7 +150,7 @@
 	    "content":"100mg/ml",
 	    "dose": {
 		"perKg": 0.15,
-		"limit": [
+		"adult": [
 		    5,
 		    10
 		],
@@ -176,7 +167,7 @@
 		    "15*bw",
 		    "15*bw"
 		],
-		"limit": [
+		"adult": [
 		    4,
 		    8
 		],
@@ -193,7 +184,7 @@
 		    "15*bw",
 		    "15*bw"
 		],
-		"limit": [
+		"adult": [
 		    2,
 		    4
 		],
@@ -206,7 +197,7 @@
 	    "content":"150mg/5ml",
 	    "dose": {
 		"perKg": 0.03,
-		"limit": [
+		"adult": [
 		    3,
 		    6.5
 		],

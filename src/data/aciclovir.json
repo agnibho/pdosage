@@ -9,7 +9,7 @@
 		    "min": "2y",
 		    "dose": {
 			"perKg": 80,
-			"limit": [
+			"adult": [
 			    3200,
 			    3200
 			],
@@ -28,7 +28,7 @@
 		    "min": "2y",
 		    "dose": {
 			"perKg": 80,
-			"limit": [
+			"adult": [
 			    3200,
 			    3200
 			],
