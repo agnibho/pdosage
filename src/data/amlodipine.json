@@ -1,0 +1,76 @@
+{
+    "name": "Amlodipine",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose":
+	    {
+		"perKg": [
+		    0.05,
+		    0.5
+		],
+		"adult": [
+		    5,
+		    10
+		],
+		"unit": "mg",
+		"txt": "OD"
+	    }
+	},
+	{
+	    "mode": "Oral",
+	    "content": "2.5mg",
+	    "dose":
+	    {
+		"approx": [
+		    2.5,
+		    "0.05*bw",
+		    "0.5*bw"
+		],
+		"adult": [
+		    2,
+		    4
+		],
+		"unit": "tab",
+		"txt": "OD"
+	    }
+	},
+	{
+	    "mode": "Oral",
+	    "content": "5mg",
+	    "dose":
+	    {
+		"approx": [
+		    5,
+		    "0.05*bw",
+		    "0.5*bw"
+		],
+		"adult": [
+		    1,
+		    2
+		],
+		"unit": "tab",
+		"txt": "OD"
+	    }
+	},
+	{
+	    "mode": "Oral",
+	    "content": "10mg",
+	    "dose":
+	    {
+		"approx": [
+		    10,
+		    "0.05*bw",
+		    "0.5*bw"
+		],
+		"adult": [
+		    0.5,
+		    1
+		],
+		"unit": "tab",
+		"txt": "OD"
+	    }
+	}
+    ]
+}

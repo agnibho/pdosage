@@ -3,6 +3,7 @@ var DATA_FILE="./src/data.json";
 var fs=require("fs");
 
 var bigData={id:"com.agnibho.com.pdosage.data", timestamp: Date.now(), version: 0};
+bigData.version=parseInt(new Date().toISOString().slice(0,10).replace(/-/g, ""))+0.1;
 
 if(process.argv[2]=="watch"){
     fs.watch(DATA_SRC, jsonCat);

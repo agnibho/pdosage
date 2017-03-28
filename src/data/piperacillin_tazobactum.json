@@ -1,0 +1,38 @@
+{
+    "name": "Piperacillin / Tazobactum",
+    "form": [
+	{
+	    "mode": "IV",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    0.3,
+		    0.4
+		],
+		"adult": [
+		    12,
+		    15
+		],
+		"unit": "gm",
+		"txt": "per day q 8 hr"
+	    }
+	},
+	{
+	    "mode": "IV",
+	    "content": "4gm/500mg",
+	    "dose": {
+		"approx": [
+		    4,
+		    "0.3*bw",
+		    "0.4*bw"
+		],
+		"adult": [
+		    3,
+		    3.75
+		],
+		"unit": "vial",
+		"txt": "per day q 8 hr"
+	    }
+	}
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "name": "Metronidazole",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    15,
+		    20
+		],
+		"adult": [
+		    200,
+		    400
+		],
+		"unit": "mg",
+		"txt": "q 8 hr x 5-7 days for giardiasis"
+	    }
+	},
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": [
+		    35,
+		    50
+		],
+		"adult": [
+		    200,
+		    400
+		],
+		"unit": "mg",
+		"txt": "q 8 hr x 10 days for amebiasis"
+	    }
+	},
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": 20,
+		"adult": [
+		    200,
+		    400
+		],
+		"unit": "mg",
+		"txt": "q 8 hr x 7-10 days for antibiotic associated diarrhea"
+	    }
+	},
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "dose": {
+		"perKg": 20,
+		"adult": [
+		    200,
+		    400
+		],
+		"unit": "mg",
+		"txt": "q 6 hr for anerobic infections"
+	    }
+	},
+	{
+	    "mode": "IV",
+	    "gen": true,
+	    "dose": {
+		"perKg": 20,
+		"adult": [
+		    200,
+		    400
+		],
+		"unit": "mg",
+		"txt": "q 6 hr for anerobic infections"
+	    }
+	}
+    ],
+    "comment": "Available forms- Tab 200mg,400mg; Susp 200mg/5ml,100mg/5ml; Inj 500mg/100ml."
+}

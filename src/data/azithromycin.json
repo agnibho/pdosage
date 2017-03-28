@@ -1,0 +1,69 @@
+{
+    "name": "Azithromycin",
+    "form": [
+	{
+	    "mode": "Oral",
+	    "gen": true,
+	    "range": [
+		{
+		    "min": "6m",
+		    "max": "12y",
+		    "dose": [
+			{
+			    "perKg": 10,
+			    "unit": "mg",
+			    "txt": "per day on day 1"
+			},
+			{
+			    "perKg": 5,
+			    "unit": "mg",
+			    "txt": "per day on next 4 days"
+			},
+			{
+			    "perKg": 30,
+			    "unit": "mg",
+			    "txt": "single dose"
+			},
+			{
+			    "perKg": 20,
+			    "unit": "mg",
+			    "txt": "per day x 7-14 days for enteric fever"
+			},
+			{
+			    "perKg": 20,
+			    "unit": "mg",
+			    "txt": "single dose for cholera"
+			}
+		    ]
+		},
+		{
+		    "min": "12y",
+		    "dose": [
+			{
+			    "val": 500,
+			    "unit": "mg",
+			    "txt": "OD x 3 days"
+			},
+			{
+			    "val": 500,
+			    "unit": "mg",
+			    "txt": "on day 1"
+			},
+			{
+			    "val": 250,
+			    "unit": "mg",
+			    "txt": "on day 2-5",
+			    "comment": "total dose 1.5 gm"
+			},
+			{
+			    "val": 1000,
+			    "unit": "mg",
+			    "txt": "single dose"
+			}
+		    ]
+		}
+	    ]
+	}
+    ],
+    "comment": "Available forms- Tab 100mg,250mg,500mg; Syr 100mg/5ml,200mg/5ml"
+}
