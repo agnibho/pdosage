@@ -1,0 +1,30 @@
+{
+    "name": "Iron",
+    "form": [
+        {
+            "mode": "Oral",
+            "gen": true,
+            "dose": [
+                {
+                    "perKg": [
+                        1,
+                        2
+                    ],
+                    "unit": "mg",
+                    "txt": "per day q 12 hr",
+                    "comment": "for prophylaxis"
+                },
+                {
+                    "perKg": [
+                        3,
+                        6
+                    ],
+                    "unit": "mg",
+                    "txt": "per day q 12 hr",
+                    "comment": "for treatment"
+                }
+            ]
+        }
+    ],
+    "comment": "IM dose = 4 × wt (kg) × Hb deficit (g/dl). Available forms- Syr 250mg/5ml, 25mg/ml, 38mg/5ml, 114mg/5ml, 33mg/5ml; Inj 50mg/ml"
+}

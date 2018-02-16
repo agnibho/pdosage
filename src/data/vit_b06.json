@@ -1,0 +1,59 @@
+{
+    "name": "Vitamin-B₆",
+    "form": [
+        {
+            "mode": "Oral/IM/IV",
+            "gen": true,
+            "dose": {
+                "perKg": [
+                    0.3,
+                    3
+                ],
+                "unit": "mg",
+                "txt": "per day"
+            }
+        },
+        {
+            "mode":"Oral",
+            "gen": true,
+            "dose": [
+                {
+                    "val": 10,
+                    "unit": "mg",
+                    "txt": "per day",
+                    "comment": "for prevention of INH neuropathy"
+                },
+                {
+                    "val": 50,
+                    "unit": "mg",
+                    "txt": "every 8 hr",
+                    "comment": "for treatment of INH neuropathy"
+                }
+            ]
+        },
+        {
+            "mode": "IV",
+            "gen": true,
+            "dose": {
+                "val": 100,
+                "unit": "mg",
+                "txt": "over 1 min",
+                "comment": "for Pyridoxine dependent seizures (max 400 mg)"
+            }
+        },
+        {
+            "mode": "Oral",
+            "gen": true,
+            "dose": {
+                "val": [
+                    50,
+                    100
+                ],
+                "unit": "mg",
+                "txt": "per day",
+                "comment": "for maintenance of Pyridoxine dependent seizures"
+            }
+        }
+    ],
+    "comment": "Available forms- Tab 40mg, 50mg, 100mg; Inj 100mg/ml"
+}

@@ -1,0 +1,41 @@
+{
+    "name": "Vitamin-B₁₂",
+    "form": [
+        {
+            "mode": "Requirement",
+            "gen": true,
+            "dose": {
+                "val": [
+                    0.3,
+                    2
+                ],
+                "unit": "μg",
+                "txt": "per day"
+            }
+        },
+        {
+            "mode": "IM",
+            "gen": true,
+            "dose": {
+                "val": [
+                    250,
+                    1000
+                ],
+                "unit": "μg",
+                "txt": "on alternate day for 1-2 weeks, then weekly",
+                "comment": "until blood count is normal"
+            }
+        },
+        {
+            "mode": "Oral/Inj",
+            "gen": true,
+            "dose": {
+                "val": 1000,
+                "unit": "μg",
+                "txt": "2-4 monthly",
+                "comment": "maintenance dose"
+            }
+        }
+    ],
+    "comment": "Available forms- Inj 500μg/ml, Tab 500μg, 1500μg, 5000μg"
+}

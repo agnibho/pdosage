@@ -1,0 +1,75 @@
+{
+    "name": "Vitamin-B₁",
+    "form": [
+        {
+            "mode": "Requirement",
+            "gen": true,
+            "dose": {
+                "val": [
+                    0.1,
+                    1
+                ],
+                "unit": "mg",
+                "txt": "per day"
+            }
+        },
+        {
+            "mode": "IM/IV",
+            "gen": true,
+            "dose": {
+                "val": [
+                    10,
+                    25
+                ],
+                "unit": "mg",
+                "txt": "per day",
+                "comment": "for Beriberi"
+            }
+        },
+        {
+            "mode": "Oral",
+            "gen": true,
+            "dose": [
+                {
+                    "val": [
+                        10,
+                        50
+                    ],
+                    "unit": "mg",
+                    "txt": "per day for first 2 weeks",
+                    "comment": "for Beriberi"
+                },
+                {
+                    "val": [
+                        5,
+                        10
+                    ],
+                    "unit": "mg",
+                    "txt": "per day for next 1 month",
+                    "comment": "for Beriberi"
+                }
+            ]
+        },
+        {
+            "mode": "IV",
+            "gen": true,
+            "dose": {
+                "val": 25,
+                "unit": "mg",
+                "txt": "slowly",
+                "comment": "for collapse due to cardiomyopathy"
+            }
+        },
+        {
+            "mode": "Oral/Inj",
+            "gen": true,
+            "dose": {
+                "val": 100,
+                "unit": "mg",
+                "txt": "q 8 hr",
+                "comment": "for metabolic disease"
+            }
+        }
+    ],
+    "comment": "Available forms- Tab 75mg, 100mg; Cap 5mg; Inj 100mg"
+}

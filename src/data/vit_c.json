@@ -1,0 +1,50 @@
+{
+    "name": "Vitamin-C",
+    "form": [
+        {
+            "mode": "Requirement",
+            "gen": true,
+            "range": [
+                {
+                    "max": "1y",
+                    "dose": [
+                        {
+                            "val": 30,
+                            "unit": "mg",
+                            "txt": "per day",
+                            "comment": "in term babies"
+                        },
+                        {
+                            "val": 50,
+                            "unit": "mg",
+                            "txt": "per day",
+                            "comment": "in preterm babies"
+                        }
+                    ]
+                },
+                {
+                    "min": "1y",
+                    "dose": {
+                        "val": 40,
+                        "unit": "mg",
+                        "txt": "per day"
+                    }
+                }
+            ]
+        },
+        {
+            "mode": "Oral/IV",
+            "gen": true,
+            "dose": {
+                "val": [
+                    100,
+                    300
+                ],
+                "unit": "mg",
+                "txt": "per day",
+                "comment": "Therapeutic dose"
+            }
+        }
+    ],
+    "comment": "Available forms- Tab 200mg, 500mg; Drop 100mg/ml; Inj 500mg/5ml"
+}

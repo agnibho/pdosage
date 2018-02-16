@@ -1,0 +1,44 @@
+{
+    "name": "Vitamin-B₂",
+    "form": [
+        {
+            "mode": "Requirement",
+            "gen": true,
+            "dose": {
+                "val": [
+                    0.1,
+                    2
+                ],
+                "unit": "mg",
+                "txt": "per day"
+            }
+        },
+        {
+            "mode": "Oral",
+            "gen": true,
+            "dose": {
+                "val": [
+                    2.5,
+                    10
+                ],
+                "unit": "mg",
+                "txt": "per day q 8-12 hr",
+                "comment": "for deficiency state"
+            }
+        },
+        {
+            "mode": "Oral",
+            "gen": true,
+            "dose": {
+                "val": [
+                    50,
+                    150
+                ],
+                "unit": "mg",
+                "txt": "q 12 to 24 hr",
+                "comment": "for metabolic disease"
+            }
+        }
+    ],
+    "comment": "Available forms- Tab 20mg"
+}

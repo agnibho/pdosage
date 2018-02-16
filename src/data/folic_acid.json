@@ -1,0 +1,95 @@
+{
+    "name": "Folic Acid",
+    "form": [
+        {
+            "mode": "Requirement",
+            "gen": true,
+            "range": [
+                {
+                    "max": "6m",
+                    "dose": {
+                        "val": [
+                            25,
+                            35
+                        ],
+                        "unit": "μg",
+                        "txt": "per day"
+                    }
+                },
+                {
+                    "min": "6m",
+                    "max": "4y",
+                    "dose": {
+                        "val": 50,
+                        "unit": "μg",
+                        "txt": "per day"
+                    }
+                },
+                {
+                    "min": "4y",
+                    "max": "7y",
+                    "dose": {
+                        "val": 75,
+                        "unit": "μg",
+                        "txt": "per day"
+                    }
+                },
+                {
+                    "min": "7y",
+                    "max": "11y",
+                    "dose": {
+                        "val": 100,
+                        "unit": "μg",
+                        "txt": "per day"
+                    }
+                },
+                {
+                    "min": "11y",
+                    "max": "14y",
+                    "dose": {
+                        "val": 150,
+                        "unit": "μg",
+                        "txt": "per day"
+                    }
+                },
+                {
+                    "min": "14y",
+                    "comment": "0.4mg/day in pregnancy and 4mg/day in high risk pregnancy"
+                }
+
+            ]
+        },
+        {
+            "mode": "Oral",
+            "gen": true,
+            "dose": [
+                {
+                    "val": [
+                        0.5,
+                        1
+                    ],
+                    "unit": "mg",
+                    "txt": "per day for 4 weeks",
+                    "comment": "for Megaloblastic anemia"
+                },
+                {
+                    "val": 200,
+                    "unit": "μg",
+                    "txt": "per day",
+                    "comment": "maintenance dose for Megaloblastic anemia"
+                }
+            ]
+        },
+        {
+            "mode": "Oral",
+            "gen": true,
+            "dose": {
+                "val": 1,
+                "unit": "mg",
+                "txt": "per day",
+                "comment": "for Hemolytic anemia"
+            }
+        }
+    ],
+    "comment": "Available forms- Tab 5mg"
+}

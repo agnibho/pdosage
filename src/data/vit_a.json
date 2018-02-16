@@ -1,0 +1,113 @@
+{
+    "name": "Vitamin-A",
+    "form": [
+        {
+            "mode": "Requirement",
+            "gen": true,
+            "dose": {
+                "val": [
+                    400,
+                    1000
+                ],
+                "unit": "IU",
+                "txt": "per day"
+            }
+        },
+        {
+            "mode": "Oral",
+            "gen": true,
+            "range": [
+                {
+                    "max": "12m",
+                    "dose": {
+                        "val": 100000,
+                        "unit": "IU",
+                        "txt": "every 6 months",
+                        "comment": "Children at risk and during measles"
+                    }
+                },
+                {
+                    "min": "12m",
+                    "max": "12y",
+                    "dose": {
+                        "val": 200000,
+                        "unit": "IU",
+                        "txt": "every 6 months",
+                        "comment": "Children at risk and during measles"
+                    }
+                }
+            ]
+        },
+        {
+            "mode": "Oral",
+            "gen": true,
+            "range": [
+                {
+                    "max": "12m",
+                    "dose": {
+                        "val": 100000,
+                        "unit": "IU",
+                        "txt": "per day for 2 doses. Then 100000 IU at 4 & 8 months",
+                        "comment": "Growth promotion in children with HIV, malaria or diarrhoeal diseases"
+                    }
+                },
+                {
+                    "min": "12m",
+                    "max": "12y",
+                    "dose": {
+                        "val": 200000,
+                        "unit": "IU",
+                        "txt": "per day for 2 doses. Then 200000 IU at 4 & 8 months",
+
+                        "comment": "Growth promotion in children with HIV, malaria or diarrhoeal diseases"
+                    }
+                }
+            ]
+        },
+        {
+            "mode": "IM",
+            "gen": true,
+            "range": [
+                {
+                    "max": "1m",
+                    "dose": {
+                        "val": 5000,
+                        "unit": "IU",
+                        "txt": "3 days in a week for 28 days",
+                        "comment": "Prevention of BPD in neonates"
+                    }
+                }
+            ]
+        },
+        {
+            "mode": "Oral",
+            "gen": true,
+            "range": [
+                {
+                    "max": "6m",
+                    "dose": {
+                        "val": 50000,
+                        "unit": "IU"
+                    }
+                },
+                {
+                    "min": "6m",
+                    "max": "12m",
+                    "dose": {
+                        "val": 100000,
+                        "unit": "IU"
+                    }
+                },
+                {
+                    "min": "1y",
+                    "dose": {
+                        "val": 200000,
+                        "unit": "IU"
+                    }
+                }
+            ],
+            "comment": "for deficiency with xerophthalmia. Same dose repeated after 24 hours and 4 weeks later. (Parenteral dose = ½ of oral dose.)"
+        }
+    ],
+    "comment": "Available forms- Cap 50000 IU, Drop 150000 IU/ml, 50000 IU/2ml"
+}
